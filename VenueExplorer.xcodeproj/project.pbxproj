@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		0E2E34101E57A65C007D27C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E340F1E57A65C007D27C0 /* AppDelegate.swift */; };
-		0E2E34121E57A65C007D27C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34111E57A65C007D27C0 /* ViewController.swift */; };
 		0E2E34151E57A65C007D27C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2E34131E57A65C007D27C0 /* Main.storyboard */; };
 		0E2E34171E57A65C007D27C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2E34161E57A65C007D27C0 /* Assets.xcassets */; };
 		0E2E341A1E57A65C007D27C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2E34181E57A65C007D27C0 /* LaunchScreen.storyboard */; };
+		0E2E34231E57A67A007D27C0 /* NetworkProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34221E57A67A007D27C0 /* NetworkProcessing.swift */; };
+		0E2E34251E57C7EC007D27C0 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34241E57C7EC007D27C0 /* Coordinate.swift */; };
+		0E2E34271E57C8A5007D27C0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34261E57C8A5007D27C0 /* Location.swift */; };
+		0E2E34291E57CDA0007D27C0 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34281E57CDA0007D27C0 /* Venue.swift */; };
+		0E2E342B1E5908F2007D27C0 /* FoursquareEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E342A1E5908F2007D27C0 /* FoursquareEndpoint.swift */; };
+		0E2E342D1E59140B007D27C0 /* FoursquareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E342C1E59140B007D27C0 /* FoursquareClient.swift */; };
+		0E2E342F1E5914F7007D27C0 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E342E1E5914F7007D27C0 /* APIResult.swift */; };
+		0E2E34321E5BE1D5007D27C0 /* VenuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34311E5BE1D5007D27C0 /* VenuesTableViewController.swift */; };
+		0E2E34351E5BEFB4007D27C0 /* VenueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34341E5BEFB4007D27C0 /* VenueTableViewCell.swift */; };
+		0E2E34371E5E8B37007D27C0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E34361E5E8B37007D27C0 /* LocationManager.swift */; };
+		0E2E343A1E5E92D2007D27C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2E34391E5E92D2007D27C0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E2E340C1E57A65C007D27C0 /* VenueExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenueExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2E340F1E57A65C007D27C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E2E34111E57A65C007D27C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E2E34141E57A65C007D27C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E2E34161E57A65C007D27C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E2E34191E57A65C007D27C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E2E341B1E57A65C007D27C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2E34221E57A67A007D27C0 /* NetworkProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProcessing.swift; sourceTree = "<group>"; };
+		0E2E34241E57C7EC007D27C0 /* Coordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		0E2E34261E57C8A5007D27C0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0E2E34281E57CDA0007D27C0 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		0E2E342A1E5908F2007D27C0 /* FoursquareEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareEndpoint.swift; sourceTree = "<group>"; };
+		0E2E342C1E59140B007D27C0 /* FoursquareClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareClient.swift; sourceTree = "<group>"; };
+		0E2E342E1E5914F7007D27C0 /* APIResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		0E2E34311E5BE1D5007D27C0 /* VenuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesTableViewController.swift; sourceTree = "<group>"; };
+		0E2E34341E5BEFB4007D27C0 /* VenueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueTableViewCell.swift; sourceTree = "<group>"; };
+		0E2E34361E5E8B37007D27C0 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0E2E34391E5E92D2007D27C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2E343A1E5E92D2007D27C0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +61,7 @@
 			children = (
 				0E2E340E1E57A65C007D27C0 /* VenueExplorer */,
 				0E2E340D1E57A65C007D27C0 /* Products */,
+				0E2E34381E5E92D2007D27C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +77,54 @@
 			isa = PBXGroup;
 			children = (
 				0E2E340F1E57A65C007D27C0 /* AppDelegate.swift */,
-				0E2E34111E57A65C007D27C0 /* ViewController.swift */,
-				0E2E34131E57A65C007D27C0 /* Main.storyboard */,
+				0E2E34331E5BE9F7007D27C0 /* View */,
+				0E2E34301E5BE142007D27C0 /* Controller */,
+				0E2E34211E57A666007D27C0 /* Model */,
 				0E2E34161E57A65C007D27C0 /* Assets.xcassets */,
-				0E2E34181E57A65C007D27C0 /* LaunchScreen.storyboard */,
 				0E2E341B1E57A65C007D27C0 /* Info.plist */,
 			);
 			path = VenueExplorer;
+			sourceTree = "<group>";
+		};
+		0E2E34211E57A666007D27C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E34221E57A67A007D27C0 /* NetworkProcessing.swift */,
+				0E2E34241E57C7EC007D27C0 /* Coordinate.swift */,
+				0E2E34261E57C8A5007D27C0 /* Location.swift */,
+				0E2E34281E57CDA0007D27C0 /* Venue.swift */,
+				0E2E342A1E5908F2007D27C0 /* FoursquareEndpoint.swift */,
+				0E2E342C1E59140B007D27C0 /* FoursquareClient.swift */,
+				0E2E342E1E5914F7007D27C0 /* APIResult.swift */,
+				0E2E34361E5E8B37007D27C0 /* LocationManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0E2E34301E5BE142007D27C0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E34311E5BE1D5007D27C0 /* VenuesTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0E2E34331E5BE9F7007D27C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E34131E57A65C007D27C0 /* Main.storyboard */,
+				0E2E34181E57A65C007D27C0 /* LaunchScreen.storyboard */,
+				0E2E34341E5BEFB4007D27C0 /* VenueTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0E2E34381E5E92D2007D27C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E34391E5E92D2007D27C0 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,13 +154,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Seize Software";
 				TargetAttributes = {
 					0E2E340B1E57A65C007D27C0 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WZX9ALEXUY;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -137,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2E34121E57A65C007D27C0 /* ViewController.swift in Sources */,
+				0E2E342F1E5914F7007D27C0 /* APIResult.swift in Sources */,
+				0E2E342B1E5908F2007D27C0 /* FoursquareEndpoint.swift in Sources */,
+				0E2E34321E5BE1D5007D27C0 /* VenuesTableViewController.swift in Sources */,
+				0E2E34291E57CDA0007D27C0 /* Venue.swift in Sources */,
 				0E2E34101E57A65C007D27C0 /* AppDelegate.swift in Sources */,
+				0E2E34271E57C8A5007D27C0 /* Location.swift in Sources */,
+				0E2E342D1E59140B007D27C0 /* FoursquareClient.swift in Sources */,
+				0E2E34371E5E8B37007D27C0 /* LocationManager.swift in Sources */,
+				0E2E34231E57A67A007D27C0 /* NetworkProcessing.swift in Sources */,
+				0E2E34251E57C7EC007D27C0 /* Coordinate.swift in Sources */,
+				0E2E34351E5BEFB4007D27C0 /* VenueTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +259,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -232,6 +310,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -302,6 +381,7 @@
 				0E2E34201E57A65C007D27C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
